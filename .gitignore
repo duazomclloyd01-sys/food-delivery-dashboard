@@ -1,0 +1,7 @@
+node_modules/
+.expo/
+dist-check/
+dist/
+web-build/
+.env
+expo-qr.png

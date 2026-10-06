@@ -1,0 +1,130 @@
+.om-divicon {
+  background: none;
+  border: none;
+}
+
+.om-pin {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+  box-shadow: 0 3px 8px rgba(31, 31, 31, 0.3);
+  border: 2px solid #fff;
+}
+
+.om-rider {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: #fff;
+  border: 2.5px solid #f26b1d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+  position: relative;
+  z-index: 2;
+  box-shadow: 0 3px 8px rgba(242, 107, 29, 0.4);
+}
+
+.om-scooter {
+  display: inline-block;
+  line-height: 1;
+}
+
+.om-halo {
+  position: absolute;
+  left: 4px;
+  top: 4px;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 2.5px solid #f26b1d;
+  z-index: 1;
+  animation: om-pulse 1.8s ease-out infinite;
+  pointer-events: none;
+}
+
+@keyframes om-pulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.6;
+  }
+  100% {
+    transform: scale(1.9);
+    opacity: 0;
+  }
+}
+
+.om-chip {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 500;
+  background: #fff;
+  border-radius: 20px;
+  padding: 6px 12px;
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
+  font-size: 11.5px;
+  color: #1f1f1f;
+  box-shadow: 0 3px 10px rgba(31, 31, 31, 0.18);
+  pointer-events: none;
+}
+
+.om-attr {
+  position: absolute;
+  left: 8px;
+  bottom: 6px;
+  z-index: 500;
+  font-family: Poppins, sans-serif;
+  font-size: 9px;
+  color: rgba(90, 90, 90, 0.85);
+  background: rgba(255, 255, 255, 0.7);
+  padding: 1px 5px;
+  border-radius: 4px;
+  pointer-events: none;
+}
+
+.om-zoom {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 500;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.om-zoom button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1.5px solid #f26b1d;
+  background: #fff;
+  color: #f26b1d;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(31, 31, 31, 0.15);
+}
+
+.om-recenter {
+  position: absolute;
+  right: 10px;
+  bottom: 24px;
+  z-index: 500;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 1.5px solid #f26b1d;
+  background: #fff;
+  color: #f26b1d;
+  font-size: 17px;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(31, 31, 31, 0.15);
+}
